@@ -531,3 +531,99 @@ label {
   font-weight: 600;
   color: white;
 }
+
+/* For tablets (screen width 768px or smaller) */
+@media only screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .anime-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .anime-poster {
+    width: 8rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .title, .title2, .title3, .title4, .view-all, .top10 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .view-all {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .top10-container {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top10-box {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .function-buttons {
+    margin-left: 0;
+    flex-direction: column;
+  }
+}
+
+/* For mobile phones (screen width 480px or smaller) */
+@media only screen and (max-width: 480px) {
+  body {
+    padding: 1rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .function-buttons, .function-container {
+    margin-left: 0;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .anime-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .anime-poster {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .top10-box {
+    width: 100%;
+  }
+
+  .title, .title2, .title3, .title4 {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .view-all {
+    margin: 0 auto;
+  }
+
+  .top10-container {
+    margin-left: 0;
+    flex-direction: column;
+  }
+}
+
