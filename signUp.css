@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(246, 248, 251);
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2b2d42;
+  margin: 0;
+  font-weight: 550;
+  height: 4.5rem;
+  font-size: 14px;
+  margin-bottom: 4rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.lower {
+  height: 7rem;
+  background-color: #2b2d42;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-top: 4rem;
+}
+
+.nav a:hover {
+  color: hsl(207, 13%, 100%);
+}
+
+.nav button:hover {
+  transform: scale(1.1);
+}
+
+.body {
+  margin-top: 7rem;
+}
+
+.logo {
+  width: 7rem;
+  margin-right: 20rem;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(210, 3%, 65%);
+  transition: color 0.3s ease;
+}
+
+.home {
+  margin-right: 2rem;
+}
+
+.login {
+  margin-left: 3rem;
+}
+
+.sign-up {
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  padding-left: 12px;
+  font-weight: 600;
+  margin-left: 2rem;
+  margin-right: 13rem;
+  background: #3577ff;
+  color: white;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.lower {
+  height: 7rem;
+  background-color: #2b2d42;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-top: 4rem;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding-top: 3.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-radius: 7px;
+}
+
+.login-title {
+  margin-bottom: 3rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: hsl(210, 3%, 45%);
+}
+
+.email {
+  margin-bottom: 1.5rem;
+  border: none;
+  color: rgb(31, 35, 45);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 8.5rem;
+  background-color: rgb(246, 248, 251);
+  border-radius: 5px;
+}
+
+.username,
+.password,
+.confirm-pass {
+  border: none;
+  color: rgb(31, 35, 45);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 8.5rem;
+  background-color: rgb(246, 248, 251);
+  border-radius: 5px;
+}
+
+.password,
+.confirm-pass {
+  margin-top: 1.5rem;
+}
+.signup-button {
+  border: none;
+  background-color: rgb(61, 180, 242);
+  color: white;
+  font-weight: 600;
+  padding: 7px 28px 7px 28px;
+  border-radius: 3px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.forgot-pass {
+  font-size: 0.8rem;
+  margin-bottom: 5rem;
+}
+
+.resend {
+  font-size: 0.8rem;
+}
+
+.create-acc {
+  color: rgb(61, 180, 242);
+}
+
+.terms {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.terms-conditions {
+  font-size: 0.8rem;
+  color: hsl(210, 3%, 45%);
+}
+
+.login-link:hover,
+.resend:hover {
+  color: rgb(61, 180, 242);
+}

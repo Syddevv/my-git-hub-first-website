@@ -1,0 +1,533 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(234, 235, 235);
+  height: 214rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2b2d42;
+  margin: 0;
+  font-weight: 550;
+  height: 4.5rem;
+  font-size: 14px;
+  margin-bottom: 4rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.lower {
+  height: 7rem;
+  background-color: #2b2d42;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-top: 4rem;
+}
+
+.nav a:hover {
+  color: hsl(207, 13%, 100%);
+}
+
+.nav button:hover {
+  transform: scale(1.1);
+}
+
+.body {
+  margin-top: 7rem;
+}
+
+.logo {
+  width: 7rem;
+  margin-right: 20rem;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(210, 3%, 65%);
+  transition: color 0.3s ease;
+}
+
+.home {
+  margin-right: 2rem;
+}
+
+.login {
+  margin-left: 3rem;
+}
+
+.sign-up {
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  padding-left: 12px;
+  font-weight: 600;
+  margin-left: 2rem;
+  margin-right: 13rem;
+  background: #3577ff;
+  color: white;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.function-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8.5rem;
+}
+
+.function-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 2rem;
+}
+
+.search-container,
+.genres-container,
+.year-container,
+.rating-container,
+.format-container {
+  position: relative;
+  width: 200px;
+}
+
+.search,
+.genres,
+.date,
+.rating {
+  width: 80%;
+  padding: 10px 40px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border: none;
+}
+
+.search-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: #888;
+}
+
+.arrow {
+  position: absolute;
+  width: 1rem;
+  top: 30%;
+  right: 70px;
+  color: rgb(216, 217, 218);
+}
+
+label {
+  margin-bottom: 0.5rem;
+  color: rgb(83, 92, 110);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.anime-poster {
+  width: 11rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-right: 3.2rem;
+}
+
+.anime-list {
+  margin-left: 8.5rem;
+  display: flex;
+  position: relative;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgb(83, 92, 110);
+  margin-left: 8.5rem;
+  margin-top: 2rem;
+}
+
+.title2,
+.title3,
+.title4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgb(83, 92, 110);
+  margin-left: 8.5rem;
+  margin-top: 3.5rem;
+}
+
+.anime-poster-uzumaki {
+  width: 11rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-right: 3.2rem;
+  height: 15.6rem;
+}
+
+.anime-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: hsl(207, 13%, 52%);
+  margin-top: 8px;
+}
+
+.view-all {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(149, 154, 163);
+  margin-left: 73rem;
+}
+
+.top10 {
+  margin-left: 8.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(83, 92, 110);
+  margin-top: 3.5rem;
+}
+
+.top10-container {
+  margin-left: 11rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.top10-posters {
+  width: 3.8rem;
+
+  border-radius: 2px;
+}
+
+.top10-box {
+  display: flex;
+  background-color: white;
+  padding: 10px 12px 10px 12px;
+  border-radius: 5px;
+  width: 81%;
+}
+
+.top10-anime-title {
+  color: rgb(83, 92, 110);
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-left: 1rem;
+  margin-top: 1.2rem;
+}
+
+.genre-container {
+  display: flex;
+}
+
+.anime-genre,
+.anime-genre-gintama {
+  display: flex;
+  background-color: rgb(166, 238, 166);
+  height: 1.3rem;
+  font-size: 0.7rem;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-weight: 600;
+  color: rgb(74, 85, 107);
+}
+
+.anime-genre2,
+.anime-genre2-gintama,
+.anime-genre3-gintama,
+.anime-genre4-gintama,
+.anime-genre-gintama2,
+.anime-genre2-gintama2,
+.anime-genre3-gintama2,
+.anime-genre4-gintama2 {
+  display: flex;
+  background-color: rgb(166, 238, 166);
+  height: 1.3rem;
+  font-size: 0.7rem;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-weight: 600;
+  color: rgb(74, 85, 107);
+}
+
+.anime-genre3 {
+  display: flex;
+  background-color: rgb(166, 238, 166);
+  height: 1.3rem;
+  font-size: 0.7rem;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-weight: 600;
+  color: rgb(74, 85, 107);
+}
+
+.percentage {
+  font-size: 0.8rem;
+  color: rgb(74, 85, 107);
+  font-weight: 600;
+}
+
+.total-users {
+  font-size: 0.8rem;
+  color: rgb(140, 153, 177);
+  font-weight: 600;
+}
+
+.rating-type-season-container {
+  display: flex;
+  align-items: center;
+}
+
+.frieren {
+  margin-left: 14rem;
+}
+
+.gintama {
+  margin-left: 10rem;
+}
+
+.gintama-2 {
+  margin-left: 10rem;
+}
+
+.fbasket {
+  margin-left: 8rem;
+}
+
+.fmetal {
+  margin-left: 8rem;
+}
+
+.kaguya {
+  margin-left: 6.5rem;
+}
+
+.aot {
+  margin-left: 8rem;
+}
+
+.ge {
+  margin-left: 6rem;
+}
+
+.hxh {
+  margin-left: 13.5rem;
+}
+
+.gatsu {
+  margin-left: 19rem;
+}
+
+.rating-percentage {
+  margin-right: 3rem;
+}
+
+.series-type {
+  font-size: 0.8rem;
+  color: rgb(74, 85, 107);
+  font-weight: 600;
+}
+
+.total-episodes {
+  font-size: 0.7rem;
+  color: rgb(140, 153, 177);
+  font-weight: 600;
+}
+
+.series-type-container {
+  margin-right: 3rem;
+}
+
+.season {
+  font-size: 0.8rem;
+  color: rgb(74, 85, 107);
+  font-weight: 600;
+}
+
+.status {
+  font-size: 0.7rem;
+  color: rgb(140, 153, 177);
+  font-weight: 600;
+}
+
+.ranking {
+  margin-right: 3rem;
+  font-size: 1.7rem;
+  color: rgb(74, 85, 107);
+  font-weight: 600;
+}
+
+.ranking2 {
+  margin-right: 2.7rem;
+  font-size: 1.7rem;
+  color: rgb(74, 85, 107);
+  font-weight: 600;
+}
+
+.ranking3 {
+  margin-right: 2rem;
+  font-size: 1.7rem;
+  color: rgb(74, 85, 107);
+  font-weight: 600;
+}
+
+.anime-genre-gintama,
+.anime-genre2-gintama,
+.anime-genre3-gintama,
+.anime-genre4-gintama {
+  background-color: rgb(241, 84, 84);
+  width: 4rem;
+  color: white;
+}
+
+.anime-genre-gintama2,
+.anime-genre2-gintama2,
+.anime-genre3-gintama2,
+.anime-genre4-gintama2 {
+  background-color: rgb(253, 75, 105);
+  color: white;
+}
+
+.anime-genre2-fbasket,
+.anime-genre3-fbasket,
+.anime-genre4-fbasket,
+.anime-genre5-fbasket {
+  display: flex;
+  background-color: rgb(31, 158, 201);
+  height: 1.3rem;
+  font-size: 0.7rem;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 4.5rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-weight: 600;
+  color: white;
+}
+
+.anime-genre2-fmetal,
+.anime-genre3-fmetal,
+.anime-genre4-fmetal,
+.anime-genre5-fmetal,
+.anime-genre3-kaguya {
+  display: flex;
+  background-color: rgb(236, 205, 163);
+  height: 1.3rem;
+  font-size: 0.7rem;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 4.5rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-weight: 600;
+  color: rgb(74, 85, 107);
+}
+
+.anime-genre3-kaguya {
+  width: 6rem;
+}
+
+.anime-genre2-aot,
+.anime-genre3-aot,
+.anime-genre4-aot,
+.anime-genre5-aot {
+  display: flex;
+  background-color: rgb(240, 167, 33);
+  height: 1.3rem;
+  font-size: 0.7rem;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 4.5rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-weight: 600;
+  color: white;
+}
+
+.anime-genre2-gatsu,
+.anime-genre3-gatsu {
+  display: flex;
+  background-color: brown;
+  height: 1.3rem;
+  font-size: 0.7rem;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 4.5rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-weight: 600;
+  color: white;
+}
+
+.anime-genre1-ge,
+.anime-genre2-ge,
+.anime-genre3-ge,
+.anime-genre4-ge {
+  display: flex;
+  background-color: rgb(31, 158, 201);
+  height: 1.3rem;
+  font-size: 0.7rem;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 4.5rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-weight: 600;
+  color: white;
+}
+
+.anime-genre3-ge {
+  width: 6.5rem;
+}
+
+.anime-genre1-hxh,
+.anime-genre2-hxh,
+.anime-genre3-hxh {
+  display: flex;
+  background-color: rgb(241, 84, 84);
+  height: 1.3rem;
+  font-size: 0.7rem;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 4.5rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-weight: 600;
+  color: white;
+}

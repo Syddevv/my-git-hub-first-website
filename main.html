@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=S, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <img src="images/logo.png" class="logo" />
+        <a href="#" class="home">Home</a>
+        <a href="#" class="favorites">Favorites</a>
+        <a href="login.html" class="login">Login</a>
+        <a href="signUp.html"> <button class="sign-up">Sign Up</button></a>
+      </div>
+    </div>
+
+    <div class="body">
+      <div class="function-buttons">
+        <div class="function-container">
+          <label for="search">Search</label>
+          <div class="search-container">
+            <input type="text" id="search" class="search" />
+            <span class="search-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="20px"
+                height="20px"
+                fill="#888"
+              >
+                <path
+                  d="M15.5,14h-0.79l-0.28-0.27C15.41,12.59,16,11.11,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5S5.91,16,9.5,16
+      c1.61,0,3.09-0.59,4.23-1.57l0.27,0.28v0.79l5,4.99L20.49,19l-4.99-5ZM9.5,14C7.01,14,5,11.99,5,9.5S7.01,5,9.5,5
+      S14,7.01,14,9.5S11.99,14,9.5,14z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+
+        <div class="function-container">
+          <label for="genres">Genres</label>
+          <div class="genres-container">
+            <input id="genres" class="genres" placeholder="Any" />
+            <span class="arrow">
+              <svg
+                data-v-e3e1e202=""
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="chevron-down"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                class="icon svg-inline--fa fa-chevron-down fa-w-14 fa-fw"
+              >
+                <path
+                  data-v-e3e1e202=""
+                  fill="currentColor"
+                  d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+                  class=""
+                ></path>
+              </svg>
+            </span>
+          </div>
+        </div>
+
+        <div class="function-container">
+          <label for="date">Year</label>
+          <div class="year-container">
+            <input id="date" class="date" placeholder="Any" />
+            <span class="arrow">
+              <svg
+                data-v-e3e1e202=""
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="chevron-down"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                class="icon svg-inline--fa fa-chevron-down fa-w-14 fa-fw"
+              >
+                <path
+                  data-v-e3e1e202=""
+                  fill="currentColor"
+                  d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+                  class=""
+                ></path>
+              </svg>
+            </span>
+          </div>
+        </div>
+
+        <div class="function-container">
+          <label for="rating">Rating</label>
+          <div class="rating-container">
+            <input id="rating" class="rating" placeholder="Any" />
+            <span class="arrow">
+              <svg
+                data-v-e3e1e202=""
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="chevron-down"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                class="icon svg-inline--fa fa-chevron-down fa-w-14 fa-fw"
+              >
+                <path
+                  data-v-e3e1e202=""
+                  fill="currentColor"
+                  d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+                  class=""
+                ></path>
+              </svg>
+            </span>
+          </div>
+        </div>
+
+        <div class="function-container">
+          <label for="format">Format</label>
+          <div class="format-container">
+            <input id="format" class="rating" placeholder="Any" />
+            <span class="arrow">
+              <svg
+                data-v-e3e1e202=""
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="chevron-down"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                class="icon svg-inline--fa fa-chevron-down fa-w-14 fa-fw"
+              >
+                <path
+                  data-v-e3e1e202=""
+                  fill="currentColor"
+                  d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+                  class=""
+                ></path>
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div><p class="title">TRENDING NOW</p></div>
+      <div><p class="view-all">View All</p></div>
+
+      <div class="anime-list">
+        <div>
+          <img
+            class="anime-poster"
+            src="images/Make Heroine ga Oosugiru!.jpg"
+          />
+          <p class="anime-title">Make Heroine ga Oosiguru</p>
+        </div>
+
+        <div>
+          <img class="anime-poster" src="images/Boku no Hero Academia 7.jpg" />
+          <p class="anime-title">Boku no Hero Academia 7</p>
+        </div>
+
+        <div>
+          <img class="anime-poster" src="images/Nige Jouzu no Wakagimi.jpg" />
+          <p class="anime-title">Nige Jouzu no Wakagimi</p>
+        </div>
+
+        <div>
+          <img
+            class="anime-poster"
+            src="images/Tensei Shitara Slime Datta Ken 3rd Season.jpg"
+          />
+          <p class="anime-title">
+            Tensei Shitara Slime Datta <br />Ken 3rd Season
+          </p>
+        </div>
+
+        <div>
+          <img class="anime-poster" src="images/Jujutsu Kaisen.jpg" />
+          <p class="anime-title">Jujutsu Kaisen</p>
+        </div>
+      </div>
+
+      <div><p class="title2">POPULAR THIS SEASON</p></div>
+      <div><p class="view-all">View All</p></div>
+
+      <div class="anime-list">
+        <div>
+          <img class="anime-poster" src="images/[Oshi no Ko] 2nd Season.jpg" />
+          <p class="anime-title">[Oshi no Ko] 2nd Season</p>
+        </div>
+
+        <div>
+          <img
+            class="anime-poster"
+            src="images/Tokidoki Bosotto Russiago de Dereru Tonari no Alya-san.jpg"
+          />
+          <p class="anime-title">
+            Tokidoki Bosotto Russiago de <br />
+            Dereru Tonari no Alya-san
+          </p>
+        </div>
+
+        <div>
+          <img
+            class="anime-poster"
+            src="images/Kami no Tou Tower of God Ouji no Kikan.jpg"
+          />
+          <p class="anime-title">
+            Kami no Tou Tower of God <br />
+            Ouji no Kikan
+          </p>
+        </div>
+
+        <div>
+          <img
+            class="anime-poster"
+            src="images/Shikanoko Nokonoko Koshitantan.jpg"
+          />
+          <p class="anime-title">Shikanoko Nokonoko <br />Koshitantan</p>
+        </div>
+
+        <div>
+          <img
+            class="anime-poster"
+            src="images/Tsue to Tsurugi no Wistoria.jpg"
+          />
+          <p class="anime-title">Tsue to Tsurugi no Wistoria</p>
+        </div>
+      </div>
+
+      <div><p class="title3">UPCOMING NEXT SEASON</p></div>
+      <div><p class="view-all">View All</p></div>
+
+      <div class="anime-list">
+        <div>
+          <img
+            class="anime-poster"
+            src="images/ReZero kara Hajimeru Isekai Seikatu 3rd Season.png"
+          />
+          <p class="anime-title">
+            Re:Zero kara Hajimeru Isekai <br />Seikatu 3rd Season
+          </p>
+        </div>
+
+        <div>
+          <img class="anime-poster" src="images/Blue Lock VS. U-20 JAPAN.png" />
+          <p class="anime-title">Blue Lock VS. U-20 JAPAN</p>
+        </div>
+
+        <div>
+          <img class="anime-poster" src="images/Dandadan.jpg" />
+          <p class="anime-title">Dandadan</p>
+        </div>
+
+        <div>
+          <img
+            class="anime-poster-uzumaki"
+            src="images/Uzumaki.png
+            "
+          />
+          <p class="anime-title">Uzumaki</p>
+        </div>
+
+        <div>
+          <img class="anime-poster" src="images/Overlord Sei Oukoku-hen.png" />
+          <p class="anime-title">Overlord Sei Oukoku-hen</p>
+        </div>
+      </div>
+
+      <div><p class="title4">ALL TIME POPULAR</p></div>
+      <div><p class="view-all">View All</p></div>
+
+      <div class="anime-list">
+        <div>
+          <img class="anime-poster" src="images/Shingeki no Kyojin.jpg" />
+          <p class="anime-title">Shingeki no Kyojin</p>
+        </div>
+
+        <div>
+          <img class="anime-poster" src="images/Kimetsu no Yaiba.jpg" />
+          <p class="anime-title">Kimetsu no Yaiba</p>
+        </div>
+
+        <div>
+          <img class="anime-poster" src="images/DEATH NOTE.jpg" />
+          <p class="anime-title">DEATH NOTE</p>
+        </div>
+
+        <div>
+          <img class="anime-poster-uzumaki" src="images/Jujutsu Kaisen.jpg" />
+          <p class="anime-title">Jujutsu Kaisen</p>
+        </div>
+
+        <div>
+          <img class="anime-poster" src="images/Boku no Hero Academia.jpg" />
+          <p class="anime-title">Boku no Hero Academia</p>
+        </div>
+      </div>
+
+      <div class="top10">TOP 10 ANIME</div>
+
+      <div class="top10-container">
+        <p class="ranking">#1</p>
+        <div class="top10-box">
+          <img class="top10-posters" src="images/Sousou no Frieren.jpg" />
+
+          <div class="name-genre-container">
+            <div>
+              <p class="top10-anime-title">Sousou no Frieren</p>
+            </div>
+
+            <div class="genre-container">
+              <p class="anime-genre">adventure</p>
+              <p class="anime-genre2">drama</p>
+              <p class="anime-genre3">fantasy</p>
+            </div>
+          </div>
+
+          <div class="rating-type-season-container frieren">
+            <div class="rating-percentage">
+              <p class="percentage">91%</p>
+              <p class="total-users">216153 users</p>
+            </div>
+
+            <div class="series-type-container">
+              <p class="series-type">TV Show</p>
+              <p class="total-episodes">28 episodes</p>
+            </div>
+
+            <div class="season-container">
+              <p class="season">Fall 2023</p>
+              <p class="status">Finished</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="top10-container">
+        <p class="ranking2">#2</p>
+        <div class="top10-box">
+          <img class="top10-posters" src="images/Gintama The Final.jpg" />
+
+          <div class="name-genre-container">
+            <div>
+              <p class="top10-anime-title">Gintama: THE FINAL</p>
+            </div>
+
+            <div class="genre-container">
+              <p class="anime-genre-gintama">action</p>
+              <p class="anime-genre2-gintama">comedy</p>
+              <p class="anime-genre3-gintama">drama</p>
+              <p class="anime-genre4-gintama">sci-fi</p>
+            </div>
+          </div>
+
+          <div class="rating-type-season-container gintama">
+            <div class="rating-percentage">
+              <p class="percentage">91%</p>
+              <p class="total-users">40127 users</p>
+            </div>
+
+            <div class="series-type-container">
+              <p class="series-type">Movie</p>
+              <p class="total-episodes">1 hour, 44 mins</p>
+            </div>
+
+            <div class="season-container">
+              <p class="season">Winter 2021</p>
+              <p class="status">Finished</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="top10-container">
+        <p class="ranking2">#3</p>
+        <div class="top10-box">
+          <img class="top10-posters" src="images/Gintama.jpg" />
+
+          <div class="name-genre-container">
+            <div>
+              <p class="top10-anime-title">Gintama</p>
+            </div>
+
+            <div class="genre-container">
+              <p class="anime-genre-gintama2">action</p>
+              <p class="anime-genre2-gintama2">comedy</p>
+              <p class="anime-genre3-gintama2">drama</p>
+              <p class="anime-genre4-gintama2">sci-fi</p>
+            </div>
+          </div>
+
+          <div class="rating-type-season-container gintama-2">
+            <div class="rating-percentage">
+              <p class="percentage">91%</p>
+              <p class="total-users">97380 users</p>
+            </div>
+
+            <div class="series-type-container">
+              <p class="series-type">TV Show</p>
+              <p class="total-episodes">51 episodes</p>
+            </div>
+
+            <div class="season-container">
+              <p class="season">Spring 2015</p>
+              <p class="status">Finished</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="top10-container">
+        <p class="ranking2">#4</p>
+        <div class="top10-box">
+          <img class="top10-posters" src="images/Fruits Basket.jpg" />
+
+          <div class="name-genre-container">
+            <div>
+              <p class="top10-anime-title">Fruits Basket: The Final</p>
+            </div>
+
+            <div class="genre-container">
+              <p class="anime-genre2-fbasket">comedy</p>
+              <p class="anime-genre3-fbasket">drama</p>
+              <p class="anime-genre4-fbasket">romance</p>
+              <p class="anime-genre5-fbasket">slice of life</p>
+            </div>
+          </div>
+
+          <div class="rating-type-season-container fbasket">
+            <div class="rating-percentage">
+              <p class="percentage">90%</p>
+              <p class="total-users">135770 users</p>
+            </div>
+
+            <div class="series-type-container">
+              <p class="series-type">TV Show</p>
+              <p class="total-episodes">13 episodes</p>
+            </div>
+
+            <div class="season-container">
+              <p class="season">Spring 2021</p>
+              <p class="status">Finished</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="top10-container">
+        <p class="ranking2">#5</p>
+        <div class="top10-box">
+          <img class="top10-posters" src="images/Fullmetal Alchemist.jpg" />
+
+          <div class="name-genre-container">
+            <div>
+              <p class="top10-anime-title">
+                Hagane no Renkinjutsushi: FULLMETAL ALCHEMIST
+              </p>
+            </div>
+
+            <div class="genre-container">
+              <p class="anime-genre2-fmetal">action</p>
+              <p class="anime-genre3-fmetal">adventure</p>
+              <p class="anime-genre4-fmetal">drama</p>
+              <p class="anime-genre5-fmetal">fantasy</p>
+            </div>
+          </div>
+
+          <div class="rating-type-season-container fmetal">
+            <div class="rating-percentage">
+              <p class="percentage">90%</p>
+              <p class="total-users">554946 users</p>
+            </div>
+
+            <div class="series-type-container">
+              <p class="series-type">TV Show</p>
+              <p class="total-episodes">64 episodes</p>
+            </div>
+
+            <div class="season-container">
+              <p class="season">Spring 2009</p>
+              <p class="status">Finished</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="top10-container">
+        <p class="ranking2">#6</p>
+        <div class="top10-box">
+          <img class="top10-posters" src="images/Kaguya-sama.png" />
+
+          <div class="name-genre-container">
+            <div>
+              <p class="top10-anime-title">
+                Kaguya-sama wa Kokurasetai: Ultra Romantic
+              </p>
+            </div>
+
+            <div class="genre-container">
+              <p class="anime-genre2-fmetal">comedy</p>
+              <p class="anime-genre3-kaguya">psychological</p>
+              <p class="anime-genre4-fmetal">romance</p>
+              <p class="anime-genre5-fmetal">slice of life</p>
+            </div>
+          </div>
+
+          <div class="rating-type-season-container kaguya">
+            <div class="rating-percentage">
+              <p class="percentage">89%</p>
+              <p class="total-users">211128 users</p>
+            </div>
+
+            <div class="series-type-container">
+              <p class="series-type">TV Show</p>
+              <p class="total-episodes">13 episodes</p>
+            </div>
+
+            <div class="season-container">
+              <p class="season">Spring 2022</p>
+              <p class="status">Finished</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="top10-container">
+        <p class="ranking2">#7</p>
+        <div class="top10-box">
+          <img
+            class="top10-posters"
+            src="images/Shingeki no Kyojin Part 3.jpg"
+          />
+
+          <div class="name-genre-container">
+            <div>
+              <p class="top10-anime-title">Shingeki no Kyojin 3 Part 2</p>
+            </div>
+
+            <div class="genre-container">
+              <p class="anime-genre2-aot">action</p>
+              <p class="anime-genre3-aot">drama</p>
+              <p class="anime-genre4-aot">fantasy</p>
+              <p class="anime-genre5-aot">mystery</p>
+            </div>
+          </div>
+
+          <div class="rating-type-season-container aot">
+            <div class="rating-percentage">
+              <p class="percentage">89%</p>
+              <p class="total-users">467365 users</p>
+            </div>
+
+            <div class="series-type-container">
+              <p class="series-type">TV Show</p>
+              <p class="total-episodes">10 episodes</p>
+            </div>
+
+            <div class="season-container">
+              <p class="season">Spring 2019</p>
+              <p class="status">Finished</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="top10-container">
+        <p class="ranking2">#8</p>
+        <div class="top10-box">
+          <img class="top10-posters" src="images/3-gatsu no Lion 2.jpg" />
+
+          <div class="name-genre-container">
+            <div>
+              <p class="top10-anime-title">3-gatsu no Lion 2</p>
+            </div>
+
+            <div class="genre-container">
+              <p class="anime-genre2-gatsu">drama</p>
+              <p class="anime-genre3-gatsu">slice of life</p>
+            </div>
+          </div>
+
+          <div class="rating-type-season-container gatsu">
+            <div class="rating-percentage">
+              <p class="percentage">89%</p>
+              <p class="total-users">111178 users</p>
+            </div>
+
+            <div class="series-type-container">
+              <p class="series-type">TV Show</p>
+              <p class="total-episodes">22 episodes</p>
+            </div>
+
+            <div class="season-container">
+              <p class="season">Fall 2017</p>
+              <p class="status">Finished</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="top10-container">
+        <p class="ranking2">#9</p>
+        <div class="top10-box">
+          <img class="top10-posters" src="images/Owarimonogatari (Ge).png" />
+
+          <div class="name-genre-container">
+            <div>
+              <p class="top10-anime-title">Owarimonogatari (Ge)</p>
+            </div>
+
+            <div class="genre-container">
+              <p class="anime-genre1-ge">comedy</p>
+              <p class="anime-genre2-ge">mystery</p>
+              <p class="anime-genre3-ge">psychological</p>
+              <p class="anime-genre4-ge">romance</p>
+            </div>
+          </div>
+
+          <div class="rating-type-season-container ge">
+            <div class="rating-percentage">
+              <p class="percentage">89%</p>
+              <p class="total-users">101784 users</p>
+            </div>
+
+            <div class="series-type-container">
+              <p class="series-type">TV Show</p>
+              <p class="total-episodes">7 episodes</p>
+            </div>
+
+            <div class="season-container">
+              <p class="season">Summer 2017</p>
+              <p class="status">Finished</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="top10-container">
+        <p class="ranking3">#10</p>
+        <div class="top10-box">
+          <img class="top10-posters" src="images/HUNTERxHUNTER (2011).png" />
+
+          <div class="name-genre-container">
+            <div>
+              <p class="top10-anime-title">HUNTERxHUNTER (2011)</p>
+            </div>
+
+            <div class="genre-container">
+              <p class="anime-genre1-hxh">action</p>
+              <p class="anime-genre2-hxh">adventure</p>
+              <p class="anime-genre3-hxh">fantasy</p>
+            </div>
+          </div>
+
+          <div class="rating-type-season-container hxh">
+            <div class="rating-percentage">
+              <p class="percentage">89%</p>
+              <p class="total-users">645729 users</p>
+            </div>
+
+            <div class="series-type-container">
+              <p class="series-type">TV Show</p>
+              <p class="total-episodes">148 episodes</p>
+            </div>
+
+            <div class="season-container">
+              <p class="season">2011 - 2014</p>
+              <p class="status">Finished</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="lower"></div>
+  </body>
+</html>
